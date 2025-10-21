@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: jme-rhos-example
+
+server:
+  port: 8080
+  servlet:
+    context-path: /${spring.application.name}
+
+jeap:
+  swagger:
+    status: OPEN

@@ -1,0 +1,8 @@
+management:
+  server:
+    port: 8082
+    base-path: /${spring.application.name}
+stage: ${STAGE}
+hello:
+  message: ${HELLO_MESSAGE}
+

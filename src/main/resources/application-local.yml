@@ -1,0 +1,4 @@
+stage: local
+hello:
+  message: "Hi, i'm a service running locally with some custom config values for"
+
